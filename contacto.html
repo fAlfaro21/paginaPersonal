@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="../Proyecto Pagina Personal/css/normalize.css">
+    <link rel="stylesheet" href="../Proyecto Pagina Personal/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=IBM Plex Sans' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <nav class="mainMenu">
+            <a href="index.html">Home</a>
+            <a href="biografia.html">Biografía</a>
+            <a href="experiencia.html">Experiencia</a>
+            <a id="contacto" href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main class="wrapper">
+        <section class="spaceBetween">
+            <article>
+                <h1>Formulario de contacto</h1>
+            </article>
+            <article class="imgCtrl">
+                <img src="img/img_fagr.jpg" alt="Imagen de FAGR">
+            </article>
+        </section>
+        <section>
+            <p>Para podernos poner en contacto, completa el siguiente formulario:</p>
+        </section>
+        <section>
+            <form action="https://www.w3schools.com/action_page.php" method="post">
+                <label for="name">Nombre</label>:
+                <input type="text" name="Name" id="Name" placeholder="Escribe tu nombre..." tabindex="2"><br><br>
+                <label for="familyName">Apellidos</label>:
+                <input type="text" name="familyName" id="familyName" placeholder="Escribe tus apellidos..." tabindex="1"><br><br>
+                <label for="telephone">Teléfono</label>
+                <input type="tel" name="telephone" id="telephone" placeholder="Escribe tu teléfono..."  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><small> Formato: 123-45-678</small><br><br>
+                <label for="eMail">Correo electrónico</label>:
+                <input type="email" name="eMail" id="eMmail" placeholder="Escribe tu correo..."><br><br>
+                <label for="comments">Comentarios:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+            </form>
+        </section>
+        <section>
+            <article>
+                <br>
+                <p class="whiteParagraph">¡Muchas gracias por tu interés!</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
