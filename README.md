@@ -1,2 +1,2 @@
 # paginaPersonal
-https://github.com/fAlfaro21/paginaPersonal.git
+https://falfaro21.github.io/paginaPersonal/
